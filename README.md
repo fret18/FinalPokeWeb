@@ -1,3 +1,18 @@
+# Taks To Do
+Fight
+Shop
+Party
+Start
+Reset
+Features
+
+Danny 
+
+
+
+Dietrish
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
