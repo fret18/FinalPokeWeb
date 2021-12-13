@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
   startButton: {
     backgroundColor: "#2971B8",
     color: "#FFCC01",
-    marginTop: "10rem",
+    marginTop: "15rem",
     position: "absolute",
     left: "50%",
     width: "5rem",
@@ -24,8 +24,10 @@ const useStyles = makeStyles((theme) => ({
   },
 
 }))
+
 export const Start = () => {
-  const classes = useStyles()
+  const classes = useStyles();
+
   function randomNumber(min, max) { 
     return Math.floor(Math.random() * (max - min) + min);
 }
@@ -39,6 +41,7 @@ export const Start = () => {
     defense: "",
     type1: "",
   });
+
   const randomPokemon = () => {
     setPokemonName(randomNumber(1, 899))
     axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`).then(
