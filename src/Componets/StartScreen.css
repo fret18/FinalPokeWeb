@@ -1,0 +1,19 @@
+.container {
+    margin: auto;
+    width: 50%;
+}
+
+.buttonContainer {
+    margin: auto;
+    width: 50%;
+}
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

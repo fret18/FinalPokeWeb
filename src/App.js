@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useStart} from 'react';
+import { Start } from '../src/Componets/StartScreen';
+import { Main } from '../src/Componets/MainPage';
+//import { Routes, Route } from 'react-router-dom';
+import { AppContext } from '../src/Componets/AppContext';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        Hello From APP!
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppContext.Provider>
+      <Start>
+
+      </Start>
+    </AppContext.Provider>
   );
 }
 
